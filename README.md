@@ -44,22 +44,22 @@ A full-featured e-commerce web application built with ASP.NET Core 8.0 and Entit
 
 1. Clone the repository
 ```sh
-git clone <repository-url>
+git clone https://github.com/tomtar00/ECommerce-ASP.NET.git
 ```
 2. Navigate to the project directory
-```
+```sh
 cd EcommerceWeb
 ```
 3. Restore dependencies
-```
+```sh
 dotnet restore
 ```
 4. Run database migrations
-```
+```sh
 dotnet ef database update
 ```
 5. Run the application
-```
+```sh
 dotnet run
 ```
 
